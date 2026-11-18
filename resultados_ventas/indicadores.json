@@ -1,0 +1,20 @@
+{
+  "operaciones_preparadas": 3210,
+  "operaciones_con_importe_verificado": 2288,
+  "cobertura_ingresos_pct": 71.28,
+  "ingresos_verificados": 719341687.62,
+  "unidades_en_registros_con_cantidad_valida": 44449.0,
+  "registros_con_cantidad_valida": 3001,
+  "precio_unitario_medio": 24974.62,
+  "ticket_medio_verificado": 314397.59,
+  "tasa_devolucion_pct": 49.69,
+  "devoluciones_observadas": 3210,
+  "descuento_medio_pct": 15.05,
+  "satisfaccion_media": 2.96,
+  "satisfaccion_observada": 3002,
+  "dias_entrega_medios": 7.53,
+  "dias_entrega_observados": 3001,
+  "fechas_validas": 3106,
+  "inicio_periodo": "2023-01-01",
+  "fin_periodo": "2025-09-26"
+}

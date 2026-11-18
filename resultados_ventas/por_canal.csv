@@ -1,0 +1,4 @@
+﻿canal_venta,operaciones,operaciones_importe_verificado,ingresos_verificados,unidades_validas,observaciones_cantidad,devoluciones,devoluciones_observadas,satisfaccion_media,observaciones_satisfaccion,ticket_medio_verificado,tasa_devolucion_pct
+Online,1034,742,226054117.42,14119.0,966,504,1034,2.9653725078698847,953,304655.1447708895,48.74274661508704
+Presencial,1094,788,249231786.2,15251.0,1029,547,1094,2.9210019267822736,1038,316283.9926395939,50.0
+Telefonico,1082,758,244055784.0,15079.0,1006,544,1082,2.9920870425321464,1011,321973.32981530344,50.27726432532347

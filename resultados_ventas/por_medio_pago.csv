@@ -1,0 +1,4 @@
+﻿medio_pago,operaciones,operaciones_importe_verificado,ingresos_verificados,unidades_validas,observaciones_cantidad,devoluciones,devoluciones_observadas,satisfaccion_media,observaciones_satisfaccion,ticket_medio_verificado,tasa_devolucion_pct
+Efectivo,1049,742,222483422.34,14223.0,982,531,1049,2.9736040609137055,985,299842.88725067384,50.619637750238326
+Tarjeta,1058,755,243688590.53,14843.0,979,532,1058,3.026449643947101,983,322766.3450728477,50.283553875236294
+Transferencia,1103,791,253169674.75,15383.0,1040,532,1103,2.881044487427466,1034,320062.79993678886,48.23209428830462

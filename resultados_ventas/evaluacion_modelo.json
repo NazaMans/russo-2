@@ -1,0 +1,65 @@
+{
+  "pregunta": "¿Se pueden anticipar devoluciones con variables disponibles al vender?",
+  "objetivo": "devolucion",
+  "predictores": [
+    "producto",
+    "categoria",
+    "region",
+    "canal_venta",
+    "medio_pago",
+    "cantidad",
+    "precio_unitario",
+    "descuento_pct",
+    "edad_cliente"
+  ],
+  "excluidos": "id, fecha como predictor, total_venta, satisfaccion y dias_entrega",
+  "motivo_exclusion": "id no generaliza; importe deriva de otras variables; satisfacción y entrega pueden conocerse solo después de la venta. Fecha se usa solo para partición.",
+  "filas_elegibles": 3096,
+  "filas_excluidas": 114,
+  "corte_test_desde": "2025-01-21",
+  "entrenamiento": 2322,
+  "prueba": 774,
+  "prevalencia_entrenamiento": 0.4996,
+  "prevalencia_prueba": 0.4922,
+  "referencia": {
+    "exactitud": 0.5078,
+    "exactitud_balanceada": 0.5,
+    "precision_clase_1": 0.0,
+    "sensibilidad_clase_1": 0.0,
+    "f1_clase_1": 0.0,
+    "auc_roc": 0.5,
+    "average_precision": 0.4922,
+    "matriz_confusion": [
+      [
+        393,
+        0
+      ],
+      [
+        381,
+        0
+      ]
+    ]
+  },
+  "regresion_logistica": {
+    "exactitud": 0.4819,
+    "exactitud_balanceada": 0.4821,
+    "precision_clase_1": 0.4749,
+    "sensibilidad_clase_1": 0.4961,
+    "f1_clase_1": 0.4852,
+    "auc_roc": 0.4678,
+    "average_precision": 0.4729,
+    "matriz_confusion": [
+      [
+        184,
+        209
+      ],
+      [
+        192,
+        189
+      ]
+    ]
+  },
+  "semilla_modelo": 42,
+  "umbral_clasificacion": 0.5,
+  "advertencia": "Ejercicio exploratorio, no evidencia de causalidad ni autorización para despliegue."
+}
