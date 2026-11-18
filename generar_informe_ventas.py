@@ -192,6 +192,7 @@ def compose(source: Path, folder: Path, audit: dict, kpi: dict, model: dict) -> 
 <header class="masthead">
   <p>Proyecto integrador · Análisis de datos comerciales · Fuente: ventas_4.csv</p>
   <h1>Informe técnico de ventas comerciales</h1>
+  <p><strong>Integrantes del grupo:</strong> Lucas Selva, Nazareno Mansilla y Roman Moreno.</p>
   <div class="subtitle">Calidad del dato, desempeño de ventas y evaluación de un modelo
   exploratorio de devoluciones. Período con fechas válidas:
   {kpi["inicio_periodo"]} a {kpi["fin_periodo"]}.</div>
