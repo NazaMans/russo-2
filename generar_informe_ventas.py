@@ -433,13 +433,6 @@ generalizables.</p>
 reconciliar operaciones defectuosas, validar el importe contra comprobantes,
 confirmar períodos cerrados, estudiar motivos de devolución, y solo entonces
 replantear un objetivo predictivo con datos disponibles antes de decidir.</p>
-<h3>Reproducibilidad</h3>
-<p>Ejecutar <code>python generar_informe_ventas.py</code> en el entorno indicado en
-<code>README-ventas.md</code>. Insumos: CSV original, <code>ventas.md</code>,
-<code>estructura.md</code> y <code>proceso.md</code>. Se generan
-<code>ventas_preparadas.csv</code>, <code>auditoria_limpieza.json</code>,
-<code>indicadores.json</code>, tablas, gráficos y
-<code>evaluacion_modelo.json</code> junto a este HTML. El archivo original no se modifica.</p>
 </section>
 </main>
 </body>
